@@ -1,0 +1,205 @@
+/*JSSH Se aplica @font-face para que tome fuentes guardadas en dicha ubicación*/
+@font-face {
+    font-family: "Lettera Text Std";
+    src: /*url("../../Font/LetteraTextStd.woff2") format('woff2'), */
+        url("../font/LetteraTextStd.woff") format('woff'), 
+        url("../font/LetteraTextStd.ttf") format('truetype'), 
+        url("../font/LetteraTextStd.svg") format('svg'),
+        url("../font/LetteraTextStd-Títulos.otf") format('embedded-opentype');       
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+    background-color: #36AD52 !important;
+}
+
+.btn-primary {
+    background-color: #36AD52;
+    border-color: #36AD52;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #206b32;
+    border-color: #36AD52;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #206b32 !important; 
+}
+
+@media (min-width: 768px) {
+.sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
+    display: block !important;
+    font-size: 18px !important;
+    }
+}
+
+.alert-warning-soft {
+    background-color: #fbd4db;
+}
+
+.alert {
+    display: none;
+   }
+   
+.alert.visible {
+    display: block;
+   }
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #36AD52;
+    border-color: #36AD52;
+}
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+td.details-control1 {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control1 {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+.redireccion {
+    font-size: 16px;
+    color: #66676B;
+}
+
+footer {   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+div.dividir {
+    display: table;
+    width: 100%;
+    padding: 10px;
+}
+
+div.centrar-vertical {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.EnviarContactoDetalleProducto {
+    background: #00B74F;
+    font-family: Lettera Text Std;
+    font-style: normal;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.menu {
+	background-color: #E2E2E4;
+	height: 70px;
+}
+
+div.alinear-derecha {
+	display: table-cell;
+	text-align: right;
+}
+
+div.alinear-centro {
+	display: table-cell;
+	text-align: center;
+}
+
+button#subir_factura_btn, button#subir_facturaviaje_btn {
+	height: 60px;
+    width: 200px;
+    font-size: 20px;	
+}
+
+div.titulo-facturas {
+    height: 25px;
+    background-color: #059856;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+td#requisition-detail{
+	color: #337ab7;
+	font-weight: bold;
+}
+
+td#requisition-detail:hover{
+	text-decoration: underline;;
+}
+
+span.glyphicon.glyphicon-remove {
+    color: #8A0808;
+}
+
+div#cuerpo_pequeno {
+	padding: 10px;
+	width: 400px;
+	margin: auto;
+}
+
+.nombre-proveedor {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;	
+}
+
+.titulo_portal {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;		
+}
+
+#borrar-btn {
+	border-color: #fff;
+	padding: 0;
+}
+
+.centrar{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.espacio-medio{
+	height: 50px;
+}
+
+.espacio-pequeno{
+	height: 20px;
+}
+
+.divs-paralelos {
+    display: inline-flex;
+}
+
+.espacio-10{
+	width: 10px;
+}
+
+div#cargar_factura{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.alinear_derecha{
+	text-align: right;
+}

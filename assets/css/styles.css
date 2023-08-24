@@ -1,0 +1,127 @@
+.swal2-popup { font-size: 1.6rem !important; }
+.invoiceBox > input {
+    display: none;
+  }
+  .invoiceBox label {
+      display: block;
+  }
+  .boxFile {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid grey;
+    background: #fff;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .boxFile:hover {
+      cursor: pointer;
+      background: grey;
+      color: #fff;
+  }
+  .boxFile i {
+      display: block;
+      font-size: 26px;
+      margin-bottom: 5px;
+  }
+  .attached,
+  .attached:hover,
+  .attached:focus {
+    background: green;
+    color: #fff;
+    border: 1px solid green;
+  }
+
+.margin-group{
+    margin: 5px;
+}
+
+.deshabilitar{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.form_centrar{
+  text-align: center;
+}
+
+.btn-grande{
+  width: 25%;
+}
+
+.btn-dropdown{
+  margin-top: 7px;
+  background: #36AD52;
+  color: white;
+  border: #36AD52;
+}
+
+.centrar_texto{
+  text-align: center;
+}
+
+.btn_salir{
+  margin: 5px;
+  width: 80%;
+}
+
+.color_arzyz{
+  background-color: #36AD52;
+}
+
+.letra_iconos_blancos{
+  color: #fff !important;
+}
+
+.botones_datatables{
+	text-align: right;
+}
+
+.color_blanco{
+  color: #fff;
+}
+
+.deshabilitar{
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.cargando_tablas_modal{
+  width: 15%;
+}
+
+.dinos{
+  width: 70px;
+  height: 59px;
+  position: absolute;
+  display: none;
+  background: url(../img/dino.png);
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: dinos 0.9s steps(8) infinite, movedinos 6s linear infinite;
+}
+
+@keyframes dinos{
+  from{
+    background-position: 0;
+  }
+
+  to{
+    background-position: 682px;
+  }
+}
+
+@keyframes movedinos{
+  0%{
+    left: 0%;
+  }
+
+  100%{
+    left: 95%;
+  }
+}
